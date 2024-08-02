@@ -1,4 +1,4 @@
-package comentarios;
+package aula20;
 
 /**
  * @author Paulo Cardoso <paulocardoso@gmail.com>
