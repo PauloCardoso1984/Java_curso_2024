@@ -14,7 +14,6 @@ public class Aritmeticos {
 		System.out.println(x / y);
 		
 		System.out.println();
-
 				
 		int a = 8;
 		int b = 3;		
@@ -27,8 +26,6 @@ public class Aritmeticos {
 		System.out.println();
 		
 		// Modulo - pega o resto da divisão
-		System.out.println(10 % 3);		
-		
-			
+		System.out.println(10 % 3);					
 	}
 }

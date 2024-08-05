@@ -14,12 +14,10 @@ public class Inferencia {
 		System.out.println(c);
 
 		c = "Paulo Cardoso";
-		System.out.println(c);
-				
+		System.out.println(c);				
 		
 		double d;  // Decladara
 		d = 125.55;  // Inicializada
-		System.out.println(d);  // usada
-						
+		System.out.println(d);  // usada					
 	}
 }

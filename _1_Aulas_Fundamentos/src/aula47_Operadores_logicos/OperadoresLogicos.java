@@ -46,6 +46,5 @@ public class OperadoresLogicos {
 	System.out.println(!true);
 	System.out.println(!false);
 	System.out.println();
-
 	}
 }

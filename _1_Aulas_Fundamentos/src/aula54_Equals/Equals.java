@@ -19,6 +19,5 @@ public class Equals {
 		System.out.println("2".equals(s2.trim()));
 		
 		sc.close();
-
 	}
 }

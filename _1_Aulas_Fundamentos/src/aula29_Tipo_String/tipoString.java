@@ -11,6 +11,7 @@ public class tipoString {
 		System.out.println("0 - " + "Olá pessoal".charAt(5));
 		
 		String s = "Boa tarde";
+
 		// Tudo em maiuscula
 		s = s.toUpperCase();
 		

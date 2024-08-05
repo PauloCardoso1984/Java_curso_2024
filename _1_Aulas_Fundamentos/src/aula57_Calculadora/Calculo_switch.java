@@ -2,7 +2,7 @@ package aula57_Calculadora;
 
 import java.util.Scanner;
 
-public class Caulculo_switch {
+public class Calculo_switch {
 
 	public static void main(String[] args) {
 		// Ler num1

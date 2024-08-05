@@ -31,6 +31,5 @@ public class Aritmetica {
 		int _final = (int) (resultado3 / c1);
 		
 		System.out.println(_final);		
-
 	}
 }

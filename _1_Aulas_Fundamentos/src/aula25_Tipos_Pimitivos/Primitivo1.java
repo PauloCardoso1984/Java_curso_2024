@@ -16,12 +16,11 @@ public class Primitivo1 {
 		char g = 'S';
 		Boolean h = true;
 		
-		// Atividades - TIPOS de numeriocos
+		// Atividades - TIPOS de numéricos
 		byte anosDeEmpresa = 23;
 		short numerosDeVoos = 327;
 		int id = 56789;
-		long pontosAcumulados = 3_324_854_213L;
-		
+		long pontosAcumulados = 3_324_854_213L;		
 		
 		// Tipos numéricos reais
 		float salario = 11_456.58F;
@@ -48,7 +47,6 @@ public class Primitivo1 {
 		System.out.println(salario);
 		System.out.println(vendasAcumuladas);
 		System.out.println(estaDeFerias);
-		System.out.println(status);
-		
+		System.out.println(status);		
 	}
 }

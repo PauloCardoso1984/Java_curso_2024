@@ -16,6 +16,5 @@ public class Exercicios {
 		System.out.println(Farenheit + "ºC");		
 		
 		sc.close();
-
 	}
 }

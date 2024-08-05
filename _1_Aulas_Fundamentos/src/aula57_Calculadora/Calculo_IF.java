@@ -34,5 +34,6 @@ public class Calculo_IF {
 		if (operacao == 4) {
 			System.out.println(num1 / num2);
 		}
+		sc.close();
 	}
 }

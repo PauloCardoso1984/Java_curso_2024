@@ -7,7 +7,6 @@ public class Conversão {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-
 		
 		// DESAFIO - Conversão
 		System.out.print("Salário 1: R$ ");
@@ -28,5 +27,4 @@ public class Conversão {
 
 		sc.close();
 	}
-
 }

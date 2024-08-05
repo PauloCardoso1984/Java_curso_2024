@@ -5,8 +5,7 @@ public class NotacaoPonto {
 	public static void main(String[] args) {
 		
 		String s = "Bom dia";
-		System.out.println(s);
-		
+		System.out.println(s);		
 		
 		// Converter tudo em maiuscula
 		s = s.toUpperCase();
@@ -25,6 +24,5 @@ public class NotacaoPonto {
 		System.out.println(s);
 
 		System.out.println("Paulo".toUpperCase());
-
 	}
 }

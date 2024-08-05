@@ -18,6 +18,5 @@ public class AreaCurcunferencia {
 		// Mudando o valor do raio
 		raio = 52;
 		System.out.println("Área: " + PI * raio * raio);
-
 	}
 }

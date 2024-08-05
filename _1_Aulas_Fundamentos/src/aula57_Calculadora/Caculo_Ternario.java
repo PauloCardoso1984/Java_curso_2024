@@ -18,6 +18,7 @@ public class Caculo_Ternario {
 				+ "\n -"
 				+ "\n *"
 				+ "\n /"
+				+ "\n %"
 				+ "\nInforme a operação: ");
 		String op = sc.next();
 		
