@@ -9,7 +9,7 @@ public class _9_Exercicios {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-/*
+
 		// EXERCICIO 1
 		System.out.println("1 - Criar um programa que receba um número e verifique se ele está entre 0 e 10 e é par");
 		System.out.print("Digite o número: ");
@@ -25,6 +25,7 @@ public class _9_Exercicios {
 			System.out.println("Número fora do enunciado...\n");
 		}
 		
+		
 		// EXERCICIO 2
 		System.out.println("2 - Criar um programa informa se o ano atual é um ano bissexto");
 		System.out.print("Digite o ano: ");
@@ -37,6 +38,7 @@ public class _9_Exercicios {
 		} else {
 			System.out.println(ano + " não é um ano bissexto");
 		}
+		
 		
 		// EXERCICIO 3
 		System.out.println("\nCriar um programa que receba duas notas parciais, calcular a média final. \n"
@@ -146,6 +148,7 @@ public class _9_Exercicios {
             }
         }
         
+        
         // EXERCICIO 7 - FORMA MAIS SIMPLES
         System.out.println("\nExemplo 1 - Criar um programa que enquanto estiver recebendo números positivos, \n"
         		+ "imprime no console a soma dos números inseridos, caso receba um número negativo, \n"
@@ -168,6 +171,7 @@ public class _9_Exercicios {
             }
         } while (number >= 0);    
         
+        
      // EXERCICIO 7 - FORMA MAIS COMPLETA
         System.out.println("\nExemplo 2 - Criar um programa que enquanto estiver recebendo números positivos, \n"
         		+ "imprime no console a soma dos números inseridos, caso receba um número negativo, \n"
@@ -189,7 +193,6 @@ public class _9_Exercicios {
             numeros1.add(num1); // Armazena o número na lista
             quantidade++; // Aumenta a contagem de números
         }
-
        // Resultado
         System.out.println("Soma dos números positivos: " + soma1);
         System.out.println("Quantidade de números digitados: " + quantidade);
@@ -208,6 +211,7 @@ public class _9_Exercicios {
             char letra = palavra.charAt(i);
             System.out.println(letra);
         }
+        
         
      // EXERCICIO 8 - Forma 2
         System.out.println("\nExemplo 2 - Criar um programa que receba uma palavra e imprime no console letra por letra.");
@@ -258,12 +262,12 @@ public class _9_Exercicios {
         }
         // Exibe os números digitados
         System.out.println("\nOs números digitados foram:");
-        for (int numero : numeros6) {
-            System.out.print(numero + " ");
+        for (int numero6 : numeros6) {
+            System.out.print(numero6 + " ");
         }
         // Exibe o maior número
         System.out.println("\nO maior número digitado é: " + maiorNumero);
-     */   
+      
         
         // EXERCICIO 9 - Forma 3
         System.out.println("\nCrie um programa que recebe 10 valores e ao final imprima o maior número.");
@@ -277,16 +281,14 @@ public class _9_Exercicios {
             if (input.equalsIgnoreCase("sair") || input.equalsIgnoreCase("fim")) {
                 break;
             }
-
             try {
-                double numero = Double.parseDouble(input);
-                numerosA.add(numero);
+                double numeroA = Double.parseDouble(input);
+                numerosA.add(numeroA);
                 count++;
             } catch (NumberFormatException e) {
                 System.out.println("Entrada inválida. Por favor, digite um número ou 'sair'/'fim'.");
             }
         }
-
         if (numerosA.isEmpty()) {
             System.out.println("Nenhum número foi digitado.");
         } else {
@@ -296,14 +298,9 @@ public class _9_Exercicios {
                     maiorNumeroA = numeroA;
                 }
             }
-
             System.out.println("Números digitados: " + numerosA);
             System.out.println("O maior número digitado: " + maiorNumeroA);
-        }
-        
-        
-        
-        
+        }        
 		sc.close();
 	}
 }
