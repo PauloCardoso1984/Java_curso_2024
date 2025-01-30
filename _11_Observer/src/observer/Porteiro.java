@@ -25,7 +25,7 @@ public class Porteiro extends Thread {
 			if(valor == 1) {
 				ChegadaAniversarianteEvent event = new ChegadaAniversarianteEvent(new Date());
 							
-				// Notificar os observador que o evento ocorreu
+				// Notificar os observador que o evento ocorreu neste momento
 				for(ChegadaAniversarianteObserver observer: this.observers) {
 					observer.chegou(event);
 				}
